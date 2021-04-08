@@ -1,0 +1,76 @@
+h1,h3{
+    text-align: center;
+    color:white;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.bg-img{
+    background-image: url('images/laptop-336369_1920.jpg');
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+   
+}
+.content{
+    background-color: indianred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    font-size: large;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 20px;
+ }
+ .bar{
+     width: 50%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ em{
+     color: lime;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:#343a40;
+    color: white;
+  }
+  .foo{
+      padding: 20px;
+  }
+  .l{
+    color:white;
+    padding-right: 30%;
+  }
+div>.qualify:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+.card:hover{
+    background-image: url('images/V1.jpg');
+    background-color:rgba(0,0,0,0.3);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-decoration: none;
+}
+.text{
+    color: white;
+    font-size:2em;
+    padding: 20px;
+}
+.text:hover,div>a:hover{
+    color: white;
+    text-decoration: none;
+    background-color:rgba(0,0,0,0.3);
+}
