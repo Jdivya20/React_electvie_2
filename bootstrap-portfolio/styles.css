@@ -59,7 +59,7 @@ footer {
 div>.qualify:hover,.gform{
     background-color: rgba(0,0,0,0.3);
 }
-.card:hover{
+.card1:hover{
     background-image: url('images/V1.jpg');
     background-color:rgba(0,0,0,0.3);
     background-blend-mode: overlay;
@@ -84,3 +84,29 @@ div>.qualify:hover,.gform{
     color: white;
     text-decoration: none;
 }
+
+.card-container{
+  width: 18rem;
+  position: relative;
+  height: 300px;
+}
+.card-container:hover .card-front{
+  transform: rotateY(180deg);
+}
+.card-container:hover .card-back{
+  transform: rotateY(0deg);
+}
+.card-back{
+  transform: rotateY(180deg);
+}
+.card2{
+  transition:all 0.9s;
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  backface-visibility: hidden;
+}
+/* .c{
+  margin-left:180px;
+  margin-right: auto;
+} */
