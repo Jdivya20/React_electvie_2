@@ -14,10 +14,12 @@
 
 document.addEventListener('DOMContentLoaded',function(){
     document.querySelector("#sname").onsubmit = function(){
+        var count=0
         roll = document.querySelector("#roll").value;
         name = document.querySelector("#name").value;
         localStorage.setItem("roll",roll)
         localStorage.setItem("name",name)
+        localStorage.setItem("score",count)
         
     };
     });
