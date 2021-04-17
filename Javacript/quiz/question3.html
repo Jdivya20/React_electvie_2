@@ -11,14 +11,15 @@
         <link rel="stylesheet" href="styles.css">
         <script src="script.js"> </script>
     </head>
-    <body>
-        <div class="container">
-            roll= <span id = "roll"></span>
+    <body class="bg-img">
+        <div class="d-flex justify-content-around nav">
+            roll: <span id = "roll"></span>
 
-            name= <span id = "name" ></span>
-            score= <span id = "score" ></span>
-        
-            <form name="quiz" id="quiz" action="question4.html">
+            name: <span id = "name" ></span>
+            score: <span id = "score" ></span>
+        </div>
+            <div class="container content">
+            <form name="quiz" id="quiz" action="question4.html"><br>
             <h3 id="q1">3.What is the full name of Dhoni</h3>
             <p><input type="radio" id="1"name="answer1" value="Mahendra singh Dhoni">Mahendra singh Dhoni</p>
             <p><input type="radio" id="2"name="answer1"value="Man Mohan Dhoni">Man Mohan Dhoni</p>
@@ -26,8 +27,8 @@
             <p><input type="radio" id="4"name="answer1"value="Amarendra Dhoni">Amarendra Dhoni</p>
                     
              
-            <button id="b1" type="submit" onclick="nextQues()">next</button>
-        </form>
+            <button id="b1" class="btn btn-warning"type="submit" onclick="nextQues()">next</button>
+        </form><br>
         <!-- <form id="sname">
             <label>Enter your name to start the test</label><br>
             <input id="name" type="text" placeholder="name">

@@ -11,22 +11,23 @@
         <link rel="stylesheet" href="styles.css">
         <script src="script.js"> </script>
     </head>
-    <body>
-        <div class="container">
-            roll= <span id = "roll"></span>
+    <body class="bg-img">
+        <div class="d-flex justify-content-around nav">
+            roll: <span id = "roll"></span>
 
-            name= <span id = "name" ></span>
-            score= <span id = "score" ></span>
-        
-            <form name="quiz" id="quiz" action="question3.html">
-            <h3 id="q1">2. How many trophies did csk win</h3>
+            name: <span id = "name" ></span>
+            score: <span id = "score" ></span>
+        </div>
+            <div class="container content">
+            <form name="quiz" id="quiz" action="question3.html"><br>
+            <h3 id="q1">2. How many trophies did csk win?</h3>
             <p><input type="radio" id="1"name="answer1" value="5">5</p>
             <p><input type="radio" id="2"name="answer1"value="4">4</p>
             <p><input type="radio" id="3"name="answer1"value="3">3</p>
             <p><input type="radio" id="4"name="answer1"value="None">None</p>
                     
              
-            <button id="b1" type="submit" onclick="nextQues()">next</button>
+            <button id="b1" class="btn btn-warning" type="submit" onclick="nextQues()">next</button>
         </form>
         <!-- <form id="sname">
             <label>Enter your name to start the test</label><br>

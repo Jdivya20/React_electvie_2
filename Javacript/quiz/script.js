@@ -1,3 +1,34 @@
+
+document.addEventListener('DOMContentLoaded',function(){
+    document.querySelector("#name").innerHTML= localStorage.getItem("name")
+    document.querySelector("#roll").innerHTML= localStorage.getItem("roll")
+    document.querySelector("#score").innerHTML=localStorage.getItem("score")
+});
+
+document.addEventListener('DOMContentLoaded',function(){
+document.querySelector("#quiz").onsubmit = function(){
+   console.log(document.getElementById("quiz").value);
+  let value= document.querySelector('input[name="answer1"]:checked').value;  
+  console.log(value);
+  localStorage.setItem("q1",value)
+  let correctAnswers=['Dhoni','3','Mahendra singh Dhoni','Yellow','Chennai'] ;
+  var qu=document.quiz.answer1.value
+  var count=JSON.parse(localStorage.getItem("score"))
+  for(let i= 0 ; i <= correctAnswers.length ; i++){
+    if (qu==correctAnswers[i]){
+      count+=1
+      // localStorage.setItem("score",count++)
+    }
+    localStorage.setItem("score",count)
+  }
+//   if(count==5){
+//     document.querySelector("#msg").innerHTML="Congrats you are a true fan"
+// }
+};
+});
+
+
+
 // document.addEventListener("DOMContentLoaded",function(){
 //     document.querySelector('#sname').onsubmit=fname
 
@@ -71,32 +102,3 @@
 //     }
 // document.write(count)
 //     }
-
-
-document.addEventListener('DOMContentLoaded',function(){
-    document.getElementById("name").innerHTML= localStorage.getItem("name")
-    document.getElementById("roll").innerHTML= localStorage.getItem("roll")
-    document.querySelector("#score").innerHTML=localStorage.getItem("score")
-});
-
-document.addEventListener('DOMContentLoaded',function(){
-document.querySelector("#quiz").onsubmit = function(){
-   console.log(document.getElementById("quiz").value);
-  let value= document.querySelector('input[name="answer1"]:checked').value;  
-  console.log(value);
-  localStorage.setItem("q1",value)
-  let correctAnswers=['Dhoni','3','Mahendra singh Dhoni','Yellow','Chennai'] ;
-  var qu=document.quiz.answer1.value
-  var count=JSON.parse(localStorage.getItem("score"))
-  for(let i= 0 ; i <= correctAnswers.length ; i++){
-    if (qu==correctAnswers[i]){
-      count+=1
-      // localStorage.setItem("score",count++)
-    }
-    localStorage.setItem("score",count)
-  }
-  if(count==5){
-    document.querySelector("#msg").innerHTML="Congrats you are a true fan"
-}
-};
-});
