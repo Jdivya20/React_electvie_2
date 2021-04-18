@@ -1,3 +1,5 @@
+// var a=prompt()
+// var b=prompt()
 // function deepEqual(a,b){
 //     if(a===b)
 //             return true;
@@ -21,5 +23,6 @@ function deepEqual(a,b){
     else
         return false;
 }
-console.log(deepEqual("ab","a"))
+console.log(deepEqual(null,[]))
+// console.log(deepEqual(a,b))
 // console.log(typeof {})

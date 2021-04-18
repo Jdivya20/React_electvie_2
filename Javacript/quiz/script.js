@@ -26,7 +26,10 @@ document.querySelector("#quiz").onsubmit = function(){
 // }
 };
 });
-
+function play_again(){
+  location.href = 'question1.html';
+  localStorage.setItem("score",0)
+}
 
 
 // document.addEventListener("DOMContentLoaded",function(){
