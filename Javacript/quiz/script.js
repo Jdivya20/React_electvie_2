@@ -27,8 +27,8 @@ document.querySelector("#quiz").onsubmit = function(){
 };
 });
 function play_again(){
-  location.href = 'question1.html';
-  localStorage.setItem("score",0)
+  location.href = 'index.html';
+  // localStorage.setItem("score",0)
 }
 
 
