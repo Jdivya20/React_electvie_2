@@ -1,5 +1,5 @@
 .bg-img{
-    background-image: url('images/Logo--CSK_571_855.jpg');
+    background-image: url('images/General-Knowledge-for-Kids.jpg');
     background-color: rgba(255,255,255,0);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
   }
 p,.final{
     font-size: 1.5em;
-    font-family: cursive;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav{
     background-color: rgba(10, 0, 0, 0.5);
@@ -39,10 +39,16 @@ p,.final{
 .score{
     background-color: rgba(10, 0, 0, 0.5);
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
     max-width: 500px;
     color:white;
-    text-align:center;
+    text-align:left;
     padding: 20px;;
     
+}
+.timer{
+    color:blue;
+    text-align: center;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
