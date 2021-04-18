@@ -1,0 +1,48 @@
+.bg-img{
+    background-image: url('images/Logo--CSK_571_855.jpg');
+    background-color: rgba(255,255,255,0);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+   
+}
+.content {
+    background-color:lightcoral;
+    background-color: rgba(10, 0, 0, 0.5);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10%;
+    color:white;
+    display: flex;
+    justify-content: center;
+  }
+  h3{
+      color:white;
+  }
+p,.final{
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.nav{
+    background-color: rgba(10, 0, 0, 0.5);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 3%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.score{
+    background-color: rgba(10, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 10%;
+    max-width: 500px;
+    color:white;
+    text-align:center;
+    padding: 20px;;
+    
+}
